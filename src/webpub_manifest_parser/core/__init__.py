@@ -2,7 +2,6 @@ import io
 import json
 import logging
 from abc import ABCMeta, abstractmethod
-from io import StringIO
 
 import requests  # noqa: I201
 
@@ -122,7 +121,7 @@ class ManifestParser:
         :rtype: ManifestParserResult
         """
         response = requests.get(url, params=params, auth=auth, proxies=proxies)
-        input_stream = StringIO(str(response.content, encoding))
+        input_stream = io.StringIO(str(response.content, encoding))
         manifest_json = self.get_manifest_json(input_stream)
 
         return self._parse(manifest_json)
