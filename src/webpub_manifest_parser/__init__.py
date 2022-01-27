@@ -1,1 +1,4 @@
-__version__ = "2.0.4"
+try:
+    from webpub_manifest_parser._version import __version__
+except ModuleNotFoundError:
+    __version__ = "dev"
