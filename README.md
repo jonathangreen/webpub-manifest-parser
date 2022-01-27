@@ -1,6 +1,6 @@
 # webpub manifest parser
 
-[![Run Tests](https://github.com/ThePalaceProject/webpub-manifest-parser/actions/workflows/test.yml/badge.svg)](https://github.com/ThePalaceProject/webpub-manifest-parser/actions/workflows/test.yml)
+[![Run Tests](actions/workflows/test.yml/badge.svg)](actions/workflows/test.yml)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![Imports: isort](https://img.shields.io/badge/%20imports-isort-%231674b1?style=flat&labelColor=ef8336)](https://pycqa.github.io/isort/)
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
@@ -80,6 +80,6 @@ You can optionally install the python version to run the library with using pyen
 
 ## Releasing
 
-Releases will be automatically published to PyPI when new releases are created on github by the 
-[release.yml](.github/workflows/release.yml) workflow. Just create a release in github with the version 
+Releases will be automatically published to PyPI when new releases are created on github by the
+[release.yml](.github/workflows/release.yml) workflow. Just create a release in github with the version
 number that you would like to use as the tag, and the rest will happen automatically.
