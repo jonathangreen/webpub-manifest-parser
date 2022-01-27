@@ -80,6 +80,6 @@ You can optionally install the python version to run the library with using pyen
 
 ## Releasing
 
-Releases will be automatically published to PyPI when new releases are created on github by the 
-[release.yml](.github/workflows/release.yml) workflow. Just create a release in github with the version 
+Releases will be automatically published to PyPI when new releases are created on github by the
+[release.yml](.github/workflows/release.yml) workflow. Just create a release in github with the version
 number that you would like to use as the tag, and the rest will happen automatically.
